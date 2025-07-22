@@ -1,11 +1,12 @@
-import Dashboard from '@Views/Dashboard';
+import PublicPage from '@Views/PublicPage';
 import { IRoute } from './types';
+import MapSection from '@Components/PublicPage/MapSection';
 
 const appRoutes: IRoute[] = [
   {
     path: '/',
-    name: 'Dashboard ',
-    component: Dashboard,
+    name: 'Public Page',
+    component: MapSection,
     authenticated: false,
   },
 ];

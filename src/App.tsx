@@ -60,11 +60,7 @@ export default function App() {
         !process.env.DISABLE_DOM_TO_CODE &&
         initDomToCode()}
       <div
-        className={`${
-          hideSideBar
-            ? 'naxatw-ml-0'
-            : `naxatw-ml-0 naxatw-flex md:naxatw-ml-[80px]`
-        }`}
+        className={`${hideSideBar ? 'naxatw-ml-0' : `naxatw-ml-0 naxatw-flex`}`}
       >
         <ToastContainer />
 
